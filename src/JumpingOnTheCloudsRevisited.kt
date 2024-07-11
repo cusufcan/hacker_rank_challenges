@@ -4,7 +4,7 @@ import java.util.*
 fun jumpingOnClouds(c: Array<Int>, k: Int): Int {
     var energy = 100
     var i = 0
-    
+
     do {
         i = (i + k) % c.size
         energy -= 1 + (2 * c[i])
